@@ -176,7 +176,7 @@
       const service = (data.get('service') || '').toString();
       const message = (data.get('message') || '').toString().trim();
       const text = `שלום! שמי ${name}.\nשירות מבוקש: ${service}\nטלפון: ${phone}\n${message ? 'הודעה: ' + message : ''}`;
-      const url = `https://wa.me/972546407732?text=${encodeURIComponent(text)}`;
+      const url = `https://wa.me/972500000000?text=${encodeURIComponent(text)}`;
 
       status.textContent = 'תודה! נפתחת שיחת וואטסאפ עם הפרטים שמילאת.';
       window.open(url, '_blank', 'noopener');

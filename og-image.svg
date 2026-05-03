@@ -17,10 +17,10 @@
   <circle cx="950" cy="180" r="320" fill="url(#g1)"/>
   <circle cx="200" cy="500" r="280" fill="url(#g2)"/>
   <g transform="translate(80,140)">
-    <text x="0" y="60" font-family="Frank Ruhl Libre, Georgia, serif" font-size="48" fill="#6B2737" font-style="italic" font-weight="500">EST. 1999 · עפולה</text>
-    <text x="0" y="210" font-family="Frank Ruhl Libre, Georgia, serif" font-size="120" fill="#1F1814" font-weight="700">אידית אלגרבלי</text>
-    <text x="0" y="300" font-family="Heebo, system-ui, sans-serif" font-size="44" fill="#4A3C33" font-weight="400">קוסמטיקה טכנולוגית מתקדמת</text>
-    <text x="0" y="430" font-family="Heebo, system-ui, sans-serif" font-size="32" fill="#8B7765">25 שנות מצוינות · אלפי לקוחות מאושרות</text>
-    <rect x="0" y="470" width="240" height="2" fill="#C9A465"/>
+    <text x="0" y="60" font-family="Frank Ruhl Libre, Georgia, serif" font-size="44" fill="#6B2737" font-style="italic" font-weight="500">מכון בוטיק · כפר סבא</text>
+    <text x="0" y="220" font-family="Frank Ruhl Libre, Georgia, serif" font-size="160" fill="#1F1814" font-weight="700">אידה</text>
+    <text x="0" y="310" font-family="Heebo, system-ui, sans-serif" font-size="48" fill="#4A3C33" font-weight="400">מכון לקוסמטיקה מתקדמת</text>
+    <text x="0" y="410" font-family="Heebo, system-ui, sans-serif" font-size="28" fill="#8B7765">טיפולי פנים · אנטי-אייג'ינג · מזותרפיה · איפור קבוע</text>
+    <rect x="0" y="445" width="240" height="2" fill="#C9A465"/>
   </g>
 </svg>

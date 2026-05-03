@@ -1,12 +1,27 @@
-# אידית אלגרבלי — קליניקה לקוסמטיקה טכנולוגית מתקדמת
+# אידה — מכון לקוסמטיקה מתקדמת
 
-Mobile-first, RTL Hebrew website for **Idit Algarabli's Cosmetics Clinic** in Afula. Built with vanilla HTML/CSS/JS — no build step.
+Mobile-first, RTL Hebrew website for **Eida — Institute for Advanced Cosmetics**, Kfar Saba. Built with vanilla HTML/CSS/JS — no build step.
+
+## ⚠️ Placeholders to fill in before going live
+
+These values are clearly marked with `TODO` HTML comments. Search the codebase and replace them with real data:
+
+| Placeholder | Where it appears | Files |
+|---|---|---|
+| `+972500000000` / `972500000000` / `050-000-0000` | Phone, WhatsApp links | `index.html`, `script.js` |
+| `כפר סבא` (no street) | Address (no street number yet) | `index.html` |
+| `#` (Facebook + Instagram links) | Footer socials | `index.html` |
+| Testimonials (3 quotes) | Replace with real customer testimonials | `index.html` |
+| `https://eida-cosmetics.co.il/` | Canonical URL, OG URL, sitemap | `index.html`, `sitemap.xml` |
+| Google Maps query | Map link | `index.html` |
+
+Quick find: `grep -n "TODO" index.html`
 
 ## What's inside
 
 - **`index.html`** — full single-page site (Hero · About · Services · Process · Why us · Gallery · Testimonials · CTA · Contact · Footer)
 - **`styles.css`** — design system + all sections (champagne / mahogany / gold leaf palette)
-- **`script.js`** — scroll reveals, 3D card tilt, parallax, count-up stats, mobile nav, smooth scroll, contact form → WhatsApp
+- **`script.js`** — scroll reveals, 3D card tilt, parallax, mobile nav, smooth scroll, contact form → WhatsApp
 - **`favicon.svg`**, **`og-image.svg`** — branded SVG assets
 - **`robots.txt`**, **`sitemap.xml`** — SEO
 
@@ -26,9 +41,3 @@ Mobile-first, RTL Hebrew website for **Idit Algarabli's Cosmetics Clinic** in Af
 python -m http.server 8000
 # open http://localhost:8000
 ```
-
-## Business
-
-- **Address**: הנשיא ויצמן 15, עפולה
-- **Phone**: 04-640-7732
-- **Hours**: Sun–Thu 09:00–19:00 · Fri 09:00–13:00
