@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iditcosmetics.co.il/sitemap.xml
